@@ -1,0 +1,125 @@
+.hidden{
+  display:none
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-flow: row wrap;
+}
+
+.container-item{
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  margin: 20px !important;
+}
+
+.container-table {
+  margin: 0px 20px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-flow: column wrap;
+  width: 45%;
+}
+
+.input-container * {
+  margin: 4px 20px;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-flow: row;
+  width: 50%;
+  margin: 30px 20px;
+}
+
+.action-container *{
+  margin: 0px 10px 0px 0px;
+}
+
+.button{
+  border-radius: 0px;
+  position: relative;
+  border: none;
+  text-align: center;
+  color: #ffffff;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button.confirm{
+  background-color: #28a745;
+}
+
+.button.cancel{
+  background-color: #c9c9c9;
+}
+
+.button.confirm:hover{
+  background-color: #45a049;
+}
+
+.button-add:hover{
+  background-color: #45a049;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  table-layout: fixed;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #4d4e4f;
+  color: white;
+}
+
+input[type="text"], input[type="number"]{
+  padding: 3px 0px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+td.no-name-column, th.no-name-column {
+  width: 5%
+}
+
+td.action-column, th.action-column {
+  width: 12%
+}
+
+.text-icon{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.anchor-button-container {
+  margin-bottom: 15px;
+  float: right;
+}

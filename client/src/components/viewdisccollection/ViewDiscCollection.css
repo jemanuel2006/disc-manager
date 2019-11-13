@@ -1,0 +1,14 @@
+ul {
+    margin: 10px 0px 0px -40px;
+    width: 60%;
+}
+
+li {
+    border-left: 6px solid #28a745;
+    background-color: #c5c5c5;
+    color: #ffffff;
+    padding: 6px;
+    width: auto;
+    font-size: 18px;
+    margin-top: 5px;
+}
