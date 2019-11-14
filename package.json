@@ -2,10 +2,10 @@
   "name": "discmanager",
   "version": "1.0.0",
   "scripts": {
-	"installall": "npm install && cd client && npm install",
+    "installall": "npm install && cd client && npm install",
     "tsc": "tsc",
     "client": "cd client && npm start",
-    "server": "npm run tsc && node build/app.js",
+    "server": "npm run tsc && node build/server/app.js",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "test": "ts-node node_modules/jasmine/bin/jasmine"
   },
